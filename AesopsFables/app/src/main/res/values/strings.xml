@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Aesops Fables</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_fablel_activity_"> Fable1_Activity</string>
+    <string name="fable_1_text">
+
+    Why not come and chat with me, said the Grasshopper, instead of toiling and moiling in that way?
+
+    I am helping to lay up food for the winter, said the Ant, and recommend you to do the same.
+
+    Why bother about winter? said the Grasshopper; we have got plenty of food at present.
+
+    But the Ant went on its way and continued its toil.
+
+    When the winter came the Grasshopper had no food and found itself dying of hunger, while it saw the ants distributing every day corn and grain from the stores they had collected in the summer.
+
+    Then the Grasshopper knew: It is best to prepare for the days of necessity"./>
+
+
+
+    <string name="title_activity_fable2_activity_"> Fable1_Activity</string>
+    <string name="fable_2_text">
+   < "Some boys playing near a pond saw a number of Frogs in the water, and began to pelt them with stones.
+
+        They killed several of them, when one of the Frogs, lifting his head out of the water, cried out:
+
+        Pray stop, my boys; what is sport to you is death to us."/>
+
+    <string name="title_activity_fable3_activity_"> Fable1_Activity</string>
+    <string name="fable_3_text">
+    "A Gentleman, having prepared a great feast, invited a Friend to supper; and the Gentleman's Dog, meeting the Friend's Dog, Come,said he, my good fellow, and sup with us to-night.
+
+    The Dog was delighted with the invitation, and as he stood by and saw the preparations for the feast, said to himself: Capital fare indeed! this is, in truth, good luck. I shall revel in dainties, and I will take good care to lay in an ample stock to-night, for I may have nothing to eat to-morrow.
+
+    As he said this to himself, he wagged his tail, and gave a sly look at his friend who had incited him.
+
+    But his tail wagging to and fro caught the cook's eye, who, seeing a stranger, straightway seized him by the legs, and threw him out the window to the street below.
+
+    When he reached the ground, he set off yelping down the street; upon which the neighbors' dogs ran up to him and asked him how he liked his supper. In faith, said he, with a sorry smile, I hardly know, for we drank so deeply, that I can't even tell you which way I got out."/>
+
+
+    <string name="title_activity_fable4_activity_"> Fable1_Activity</string>
+    <string name="fable_4_text">
+    "A Man came into a Wood one day with an axe in his hand, and begged all the Trees to give him a small branch which he wanted for a particular purpose.
+
+    The Trees were good-natured and gave him one of their branches.
+
+    What did the Man do but fix it into the axe head, and soon set to work cutting down tree after tree.
+
+    Then the Trees saw how foolish they had been in giving their enemy the means of destroying themselves
+
+    <string name="title_activity_fable4_activity_"> Fable1_Activity</string>
+    <string name="fable_4_text">
+
+    "Be quiet now, said an old Nurse to a child sitting on her lap.
+
+    If you make that noise again I will throw you to the Wolf.
+
+    Now it chanced that a Wolf was passing close under the window as this was said.
+
+    So he crouched down by the side of the house and waited.
+
+    I am in good luck to-day, thought he. It is sure to cry soon, and a daintier morsel I haven't had for many a long day.
+
+    So he waited, and he waited, and he waited, till at last the child began to cry, and the Wolf came forward before the window, and looked up to the Nurse, wagging his tail.
+
+    But all the Nurse did was to shut down the window and call for help, and the dogs of the house came rushing out.
+
+    Ah, said the Wolf as he galloped away, Enemies promises were made to be broken."
+
+    <string name="title_activity_the_boysandthe_frogs">TheBoysandtheFrogs</string>
+    <string name="title_activity_the_lionin_love">TheLioninLove</string>
+    <string name="title_activity_the_nurseandthe_wolf">TheNurseandtheWolf</string>
+    <string name="title_activity_the_dog_invitedto_supper">TheDogInvitedtoSupper</string>
+    <string name="title_activity_the_manandthe_wood">TheManandtheWood</string>
+</resources>
