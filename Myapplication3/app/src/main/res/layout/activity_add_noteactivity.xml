@@ -70,8 +70,7 @@
         android:layout_height="wrap_content"
         android:text="Add Voice Note"/>
 
-    </LinearLayout>
-    <Button
+    </LinearLayout><Button
 
     android:id="@+id/btnSave"
     android:textColor="@android:color/white"

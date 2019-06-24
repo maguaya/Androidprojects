@@ -6,12 +6,29 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
+//
+//import com.example.veranotepad.adapters.NotesAdapter;
+//import com.example.veranotepad.database.DatabaseHelper;
+//import com.example.veranotepad.database.Note;
+
+import com.example.myapplication.R;
+import com.example.myapplication.adapters.NotesAdapter;
+import com.example.myapplication.database.DatabaseHelper;
+import com.example.myapplication.database.Note;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,13 +41,42 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               startActivity(new Intent(getBaseContext(),AddNoteactivity.class));
+
+                startActivity(new Intent(getBaseContext(),AddNoteactivity.class));
 
             }
         });
-        TextView tvHello = findViewById(R.id.tvHello);
-        tvHello.setText("I am learning");
+        listView = findViewById(R.id.listView);
+    }
 
+
+    private void displayNotes() {
+        DatabaseHelper databaseHelper = new DatabaseHelper(getBaseContext(),"notes",null,1);
+        List<Note> noteList = new ArrayList<Note>();
+        noteList = databaseHelper.getNotes();
+        Log.d("myNotes","My database has" +  noteList.size() + "notes");
+        NotesAdapter notesAdapter = new NotesAdapter(getBaseContext(),0,noteList);
+
+
+    }
+    private void displayName() {
+        List<String> namesList = new ArrayList<String>();
+        namesList.add("Vero Njeri");
+        namesList.add("Cellinah Robi");
+        namesList.add("Mercy Rima");
+        namesList.add("Tracy  Baraza");
+        namesList.add("Ann Karanja");
+        namesList.add("Joan Aluka");
+
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,namesList);
+        listView.setAdapter(arrayAdapter);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        displayNotes();
+//        displayName();
     }
 
     @Override

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".AddNoteactivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -23,24 +23,10 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_behavior="@string/appbar_scrolling_view_behavior">
+        android:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
-    <TextView android:id="@+id/tvHello"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-        android:text="Hi leah!"
-        android:layout_centerInParent="true"/>
-        <Button
-            android:textColor="@android:color/white"
-            android:background="@drawable/bg_button_pink"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layou_gravity="top|bottom"
-            android:layout_margin="3dp"
-            android:tex="View Note"
-            android:id="@+id/bnAddVoiceNote"/>
 
-    </RelativeLayout>
+
 
    <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
